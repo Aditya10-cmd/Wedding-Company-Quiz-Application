@@ -153,7 +153,7 @@ export default function App() {
                     onClick={() =>
                       handleAnswerOption(index, option.isCorrect)
                     }
-                    className={`block w-[677px] p-3 mb-3 rounded-xl border text-center text-lg transition-all mx-auto font-semibold bg-white
+                    className={`block w-[677px] p-3 mb-3 rounded-xl border text-center text-lg transition-all mx-auto font-semibold
                  ${
                    answered
                      ? index === selectedAnswer
