@@ -1,16 +1,52 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📘 Quiz App – React + Tailwind.
+<br><br>
+A simple and interactive quiz application built using React and Tailwind CSS, featuring progress tracking, answer validation, and a final score screen.
+<br><br>
+🚀 Setup Instructions
+<br>
+Follow these steps to run the project locally:
+<br>
+1. Clone the repository
+   <br>
+git clone https://github.com/Aditya10-cmd/Wedding-Company-Quiz-Application <br>
+cd project forlder <br>
+3. Install dependencies <br>
+npm install <br>
+4. Run the development server <br>
+npm run dev <br>
+5. Open the app in your browser <br>
+Visit: <br>
+http://localhost:5173/ <br>
+(or whichever port Vite displays) <br><br>
+🧰 Tech Stack Used <br>
+Frontend <br>
+React.js – Component-based UI <br>
+Tailwind CSS – Utility-first styling <br>
+Vite – Fast development and bundling <br>
+Other Tools <br>
+ESLint + Prettier (optional) – Code formatting & consistency <br>
+✨ Key Features Implemented <br>
+✔ Multiple-choice questions <br>
+Each question has selectable answer options. <br>
+✔ Correct/Incorrect answer validation <br>
+     Answers highlight: <br>
+Green → Correct <br>
+Red → Incorrect <br>
+Other options turn grey after selection <br>
+✔ Next & Previous navigation <br>
+Users can move between questions. <br>
+✔ Progress bar <br>
+Visually shows progress through the quiz. <br>
+✔ Final Score Screen <br>
+Shows: <br>
+Score out of total <br>
+Percentage <br>
+Reset button to restart the quiz <br>
+✔ Responsive UI  <br>
+Fully responsive layout using Tailwind utility classes. <br>
+🧩 Assumptions Made <br><br>
+The quiz contains a fixed set of questions defined locally. <br>
+There is no backend or API call for fetching questions. <br>
+The user can only attempt each question once before proceeding. <br>
+Styling uses only Tailwind CSS, no external UI library. <br>
+The GIF is placed under the /public directory (/public/gif.gif). <br>
