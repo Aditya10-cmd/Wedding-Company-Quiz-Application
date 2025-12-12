@@ -18,14 +18,14 @@ npm run dev <br>
 Visit: <br>
 http://localhost:5173/ <br>
 (or whichever port Vite displays) <br><br>
-🧰 Tech Stack Used <br>
+🧰 Tech Stack Used <br><br>
 Frontend <br>
 React.js – Component-based UI <br>
 Tailwind CSS – Utility-first styling <br>
 Vite – Fast development and bundling <br>
 Other Tools <br>
-ESLint + Prettier (optional) – Code formatting & consistency <br>
-✨ Key Features Implemented <br>
+ESLint + Prettier (optional) – Code formatting & consistency <br><br>
+✨ Key Features Implemented <br><br>
 ✔ Multiple-choice questions <br>
 Each question has selectable answer options. <br>
 ✔ Correct/Incorrect answer validation <br>
@@ -43,7 +43,7 @@ Score out of total <br>
 Percentage <br>
 Reset button to restart the quiz <br>
 ✔ Responsive UI  <br>
-Fully responsive layout using Tailwind utility classes. <br>
+Fully responsive layout using Tailwind utility classes. <br><br>
 🧩 Assumptions Made <br><br>
 The quiz contains a fixed set of questions defined locally. <br>
 There is no backend or API call for fetching questions. <br>
