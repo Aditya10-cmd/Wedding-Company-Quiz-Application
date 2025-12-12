@@ -99,7 +99,7 @@ export default function App() {
                 <div className="bg-white shadow-md rounded-xl px-3 py-1 text-sm font-semibold italic">
                   Best of Luck !
                 </div>
-                <img src="../public/gif.gif" className="w-20 opacity-95" />
+                <img src="/gif.gif" className="w-20 opacity-95" />
               </div>
 
               {/* Title */}
