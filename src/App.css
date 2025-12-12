@@ -1,0 +1,9 @@
+body {
+  font-family: "Inter", sans-serif;
+}
+.gradient-title {
+  background: linear-gradient(90deg, #15313D 0%, #3CABDA 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
